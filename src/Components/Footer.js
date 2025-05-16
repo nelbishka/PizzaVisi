@@ -1,10 +1,4 @@
-import React from 'react'
 import Logo from "../Assets/Logo.png"
-import {BsTwitter} from 'react-icons/bs'
-import {SiLinkedin} from 'react-icons/si'
-import {BsYoutube} from 'react-icons/bs'
-import {FaFacebook} from 'react-icons/fa'
-
 
 const Footer = () => {
   return (
@@ -13,31 +7,7 @@ const Footer = () => {
         <div className='footer-logo-container'>
           <img src={Logo} alt="" />
         </div>
-        <div className="footer-icons">
-          <BsTwitter />
-          <SiLinkedin />
-          <BsYoutube />
-          <FaFacebook />
-        </div>
-      </div>
-      <div className="footer-section-two">
-        <div className="footer-section-columns">
-          <span>Quality</span>
-          <span>Help</span>
-          <span>Share</span>
-          <span>Carriers</span>
-          <span>Testimonials</span>
-          <span>Work</span>
-        </div>
-        <div className="footer-section-columns">
-          <span>+355 68 30 77 030</span>
-          <span>pizza@gmail.com</span>
-          <span>owner@gmail.com</span>
-        </div>
-        <div className="footer-section-columns">
-          <span>Terms & Conditions</span>
-          <span>Privacy Policy</span>
-        </div>
+        <p style={{color: '#4c4c4c'}}>&copy; All rights reserved.</p>
       </div>
     </div>
   )

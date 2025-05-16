@@ -3,7 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
+  
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -13,10 +19,12 @@ img {
   width: 85vw;
   max-width: 1900px;
   margin: 0rem auto;
+   /* overflow-x: hidden; */
 }
 body {
   max-width: 100%;
   overflow-x: hidden;
+  
 }
 
 body {
@@ -152,55 +160,28 @@ nav {
   margin-top: 2rem;
   display: flex;
 }
-.watch-video-button {
-  margin-left: 2rem;
-  background-color: transparent;
-  outline: none;
-  border: none;
-  border-radius: 5rem;
-  font-size: 1.1rem;
-  cursor: pointer;
-  font-weight: 600;
-  color: #484848;
-  transition: 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.watch-video-button svg {
-  font-size: 3rem;
-  margin-right: 1rem;
-}
-.contact-page-wrapper h1 {
-  max-width: 900px !important;
-}
-.contact-page-wrapper {
+
+.map-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 6rem 0rem;
-}
-.contact-form-container {
-  background-color: white;
-  max-width: 700px;
+  margin: 6rem 0;
   width: 100%;
+}
+
+.map-container {
+  background-color: white;
+  width: 90%;
+  max-width: 1200px;
   margin-top: 3rem;
-  display: flex;
-  align-items: center;
   padding: 1rem;
-  border-radius: 5rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.contact-form-container input {
-  flex: 1;
-  height: 100%;
-  border: none;
-  outline: none;
-  font-size: 1.3rem;
-  padding: 0.5rem 1rem;
-}
+
 .footer-wrapper {
-  margin: 6rem 0rem;
+  margin: 2rem;
   display: flex;
   margin-top: 10rem;
 }
@@ -216,10 +197,11 @@ nav {
   color: #585858;
 }
 
-.footer-section-two {
+.footer-section-one {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .footer-section-columns {
   display: flex;
@@ -232,7 +214,7 @@ nav {
   color: #4c4c4c;
   cursor: pointer;
 }
-.testimonial-section-bottom {
+/* .testimonial-section-bottom {
   margin-top: 2rem;
   background-color: white;
   padding: 1.5rem 2rem;
@@ -267,51 +249,62 @@ nav {
   width: 60px;
 }
 
-.work-section-wrapper {
-  margin-top: 15rem;
+.button-container{
+  display: flex;
+  justify-content: center;
 }
-.work-section-top p {
+
+.review-button{
+  /* background-color: #fe9e0d; /* Tailwind's pink-500 */
+  /* color: white;
+  padding: 0.5rem 1.5rem; py-2 px-6 */
+  /* border-radius: 9999px; /* full rounding */
+  /* transition: background-color 0.2s; */
+  /* text-decoration: none; */ */ */
+/* } */ */
+
+.testimonials-section {
+  padding: 4rem 1rem;
+  background-color: #f9f9f9;
   text-align: center;
-  max-width: 600px !important;
 }
-.work-section-top h1 {
-  max-width: 700px !important;
+
+.testimonials-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 200px;
 }
-.work-section-top {
+
+.testimonials-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.testimonials-subtitle {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.button-container {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
-.work-section-info {
-  width: 290px;
-  min-height: 350px;
-  background-color: white;
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 1rem;
-  color: #505050;
-  margin: 1rem 2rem;
+
+.review-button {
+  display: inline-block;
+  background-color: #fe9e0d;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
-.work-section-info h2 {
-  margin: 1rem 0rem;
-}
-.work-section-bottom {
-  margin-top: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.work-section-info p {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  font-weight: 600;
+
+.review-button:hover {
+  background-color: #b36b00;
 }
 
 @media (max-width: 1000px) {

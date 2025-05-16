@@ -6,12 +6,12 @@ import PizzaImage from '../Assets/home-banner-image.png'
 
 const Home = () => {
   return (
-    <div className='home-container'>
+    <div className='home-container' id='home'>
         <Nav />
 
         <div className='home-banner-container'>
           <div className='home-bannerImage-container'>
-            <img src={BannerImage}/>
+            <img src={BannerImage} alt='pizza store'/>
           </div>
           <div className='home-text-section'>
             <h1 className='primary-heading'>
@@ -21,12 +21,10 @@ const Home = () => {
               Explore our diverse range of mouthwatering pizza options.
               Signature recipes crafted for the ultimate pizza experience.
             </p>
-            <button className='primary-button'>
-              Order Now 
-            </button>
+
           </div>
           <div className='home-image-secton'>
-              <img src={PizzaImage} />
+              <img src={PizzaImage} alt='pizza shop'/>
             </div>
         </div>
         
