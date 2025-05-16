@@ -217,7 +217,6 @@ nav {
 
 .testimonials-section {
   padding: 4rem 1rem;
-  background-color: #f9f9f9;
   text-align: center;
 }
 
@@ -370,6 +369,9 @@ nav {
   }
   .App {
     max-width: 95vw;
+  }
+  .testimonials-container{
+    margin-top: 100px !important;
   }
 }
 @media (max-width: 600px) {
