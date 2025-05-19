@@ -5,7 +5,7 @@ import About from "./Components/About";
 import Testimonials from "./Components/Testimonials";
 import Map from "./Components/Map";
 import Footer from "./Components/Footer";
-import {Helmet} from 'react-helmet;'
+import {Helmet} from 'react-helmet'
 
 function App() {
   return (
