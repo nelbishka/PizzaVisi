@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Berat Pizza House | Delicious Pizza in Berat</title>
+        <title>Pizza Visi | Delicious Pizza in Berat</title>
         <meta
           name="description"
           content="Enjoy our pizza with fresh ingredients at Pizza Visi. Visit us!"
