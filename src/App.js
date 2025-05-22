@@ -21,7 +21,7 @@ function App() {
           content="pizza Berat, pizza Visi, Berat pizza delivery, best pizza Albania"
         />
         <meta name="author" content="Pizza Visi" />
-        <link rel="canonical" href="https://mb-pizzavisi.netlify.app/" />
+        <link rel="canonical" href="https://pizzavisi.netlify.app/" />
 
         {/* Open Graph */}
         <meta
@@ -33,10 +33,10 @@ function App() {
           content="Taste the best pizza in Berat! Upgrade your experience."
         />
         <meta property="og:type" content="pizzeria" />
-        <meta property="og:url" content="https://mb-pizzavisi.netlify.app/" />
+        <meta property="og:url" content="https://pizzavisi.netlify.app/" />
         <meta
           property="og:image"
-          content="https://mb-pizzavisi.netlify.app/images/Logo.png/"
+          content="https://pizzavisi.netlify.app/images/Logo.png/"
         />
 
         {/* Twitter */}
@@ -48,7 +48,7 @@ function App() {
         />
         <meta
           name="twitter:image"
-          content="https://mb-pizzavisi.netlify.app/images/Logo.png/"
+          content="https://pizzavisi.netlify.app/images/Logo.png/"
         />
 
         {/* Favicon */}
